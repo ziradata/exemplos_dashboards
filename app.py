@@ -22,6 +22,7 @@ colors = {
 # ==============================================================================
 # Usar um tema Bootstrap torna o layout muito mais profissional
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
+server = app.server
 
 # ==============================================================================
 # DADOS FALSOS (MOCK DATA)
